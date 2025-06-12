@@ -10,9 +10,6 @@ Esta aplicación fue desarrollada como parte de un encargo para una empresa exte
 
 - **Selector de objetivos**: El usuario puede elegir entre mantener, subir o bajar de peso, además de definir edad y género.
 - **Bottom Tab Navigator + Stack Navigator**: Navegación fluida entre pantallas principales y secciones internas.
-- **Perfil de usuario**:
-  - Avatar editable.
-  - Nombre y @usuario tipo Instagram.
 - **Gráfico semanal**:
   - Uso de `react-native-gifted-charts` para mostrar el progreso de calorías por día (Lunes a Domingo).
 - **Progreso de nutrientes**:
