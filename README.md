@@ -62,16 +62,6 @@ Esta aplicación fue desarrollada como parte de un encargo para una empresa exte
    npx react-native run-ios
    ```
 
----
-
-## 📸 Capturas (opcional)
-
-![Pantalla principal](./src/assets/screenshots/Screenshot_20250610_211551_fitApp.png)
-![Gráfica de progreso semanal](./src/assets/screenshots/Screenshot_20250612_143937_fitApp.png)
-![Perfil de usuario](./src/assets/screenshots/Screenshot_20250612_143947_fitApp.png)
-
----
-
 ## 📌 Nota final
 
 Este proyecto fue realizado con fines prácticos y de colaboración con una empresa externa. Algunas funcionalidades específicas fueron desarrolladas a pedido del cliente.  
