@@ -67,13 +67,13 @@ Esta aplicación fue desarrollada como parte de un encargo para una empresa exte
 ## 📸 Capturas (opcional)
 
 ### Pantalla principal
-!(./assets/screenshots/Screenshot_20250610_211551_fitApp)
+![Pantalla principal](./assets/screenshots/Screenshot_20250610_211551_fitApp.png)
 
 ### Gráfica de progreso semanal
-![Gráfica](./assets/screenshots/Screenshot_20250612_143937_fitApp)
+![Gráfica de progreso semanal](./assets/screenshots/Screenshot_20250612_143937_fitApp.png)
 
 ### Perfil de usuario
-(./assets/screenshots/Screenshot_20250612_143947_fitApp)
+![Perfil de usuario](./assets/screenshots/Screenshot_20250612_143947_fitApp.png)
 
 ---
 
