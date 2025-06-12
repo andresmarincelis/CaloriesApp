@@ -1,6 +1,6 @@
 # CaloríasApp (React Native)
 
-Esta aplicación fue desarrollada como parte de un encargo para una empresa externa. La app tiene como objetivo ayudar al usuario a visualizar y controlar su progreso calórico diario y semanal, en base a sus objetivos personales de peso y estilo de vida.  
+Esta aplicación fue desarrollada como parte de un encargo para una empresa externa. La app tiene como objetivo ayudar al usuario a visualizar y controlar su progreso calórico diario y semanal, en base a sus objetivos personales de peso y estilo de vida.
 
 > ⚠️ Este proyecto se encuentra **en desarrollo** y no representa una versión final o publicada.
 
@@ -10,14 +10,14 @@ Esta aplicación fue desarrollada como parte de un encargo para una empresa exte
 
 - **Selector de objetivos**: El usuario puede elegir entre mantener, subir o bajar de peso, además de definir edad y género.
 - **Bottom Tab Navigator + Stack Navigator**: Navegación fluida entre pantallas principales y secciones internas.
-- **Perfil de usuario**:  
-  - Avatar editable.  
+- **Perfil de usuario**:
+  - Avatar editable.
   - Nombre y @usuario tipo Instagram.
-- **Gráfico semanal**:  
+- **Gráfico semanal**:
   - Uso de `react-native-gifted-charts` para mostrar el progreso de calorías por día (Lunes a Domingo).
-- **Progreso de nutrientes**:  
+- **Progreso de nutrientes**:
   - Uso de `react-native-paper` para mostrar barras de progreso de carbohidratos, grasas, proteínas, etc.
-- **Calendario interactivo**:  
+- **Calendario interactivo**:
   - Integración con `react-native-calendar-strip` para seleccionar fechas fácilmente y revisar registros anteriores o futuros.
 
 ---
@@ -45,19 +45,19 @@ Esta aplicación fue desarrollada como parte de un encargo para una empresa exte
 
 ## 🚀 Cómo ejecutar el proyecto localmente
 
-1. Clona el repositorio:  
+1. Clona el repositorio:
    ```bash
    git clone https://github.com/tuusuario/nombre-del-repo.git
    ```
-2. Instala las dependencias:  
+2. Instala las dependencias:
    ```bash
    npm install
    ```
-3. Ejecuta en Android:  
+3. Ejecuta en Android:
    ```bash
    npx react-native run-android
    ```
-4. Ejecuta en iOS:  
+4. Ejecuta en iOS:
    ```bash
    npx react-native run-ios
    ```
