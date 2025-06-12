@@ -66,7 +66,14 @@ Esta aplicación fue desarrollada como parte de un encargo para una empresa exte
 
 ## 📸 Capturas (opcional)
 
-> Puedes agregar capturas de pantalla de las pantallas de la app si quieres mostrar visualmente las funciones.
+### Pantalla principal
+![Pantalla principal](./assets/screenshots/Screenshot_20250610_211551_fitApp)
+
+### Gráfica de progreso semanal
+![Gráfica](./assets/screenshots/Screenshot_20250612_143937_fitApp)
+
+### Perfil de usuario
+![Perfil](./assets/screenshots/Screenshot_20250612_143947_fitApp)
 
 ---
 
