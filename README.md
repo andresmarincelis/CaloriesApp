@@ -1,79 +1,76 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# CaloríasApp (React Native)
 
-# Getting Started
+Esta aplicación fue desarrollada como parte de un encargo para una empresa externa. La app tiene como objetivo ayudar al usuario a visualizar y controlar su progreso calórico diario y semanal, en base a sus objetivos personales de peso y estilo de vida.  
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> ⚠️ Este proyecto se encuentra **en desarrollo** y no representa una versión final o publicada.
 
-## Step 1: Start the Metro Server
+---
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## 📱 Funcionalidades principales
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **Selector de objetivos**: El usuario puede elegir entre mantener, subir o bajar de peso, además de definir edad y género.
+- **Bottom Tab Navigator + Stack Navigator**: Navegación fluida entre pantallas principales y secciones internas.
+- **Perfil de usuario**:  
+  - Avatar editable.  
+  - Nombre y @usuario tipo Instagram.
+- **Gráfico semanal**:  
+  - Uso de `react-native-gifted-charts` para mostrar el progreso de calorías por día (Lunes a Domingo).
+- **Progreso de nutrientes**:  
+  - Uso de `react-native-paper` para mostrar barras de progreso de carbohidratos, grasas, proteínas, etc.
+- **Calendario interactivo**:  
+  - Integración con `react-native-calendar-strip` para seleccionar fechas fácilmente y revisar registros anteriores o futuros.
 
-```bash
-# using npm
-npm start
+---
 
-# OR using Yarn
-yarn start
-```
+## 🧰 Tecnologías y librerías utilizadas
 
-## Step 2: Start your Application
+- **React Native** (CLI)
+- **TypeScript**
+- **react-navigation** (Bottom Tabs + Stack)
+- **react-native-paper**
+- **react-native-calendar-strip**
+- **react-native-gifted-charts**
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+---
 
-### For Android
+## 🛠️ En desarrollo / Pendiente
 
-```bash
-# using npm
-npm run android
+- Integración con backend o base de datos.
+- Lógica de almacenamiento persistente o sincronización.
+- Registro/calculo automático de calorías y alimentos.
+- Interfaz más robusta de edición de usuario.
+- Control por fecha a largo plazo.
 
-# OR using Yarn
-yarn android
-```
+---
 
-### For iOS
+## 🚀 Cómo ejecutar el proyecto localmente
 
-```bash
-# using npm
-npm run ios
+1. Clona el repositorio:  
+   ```bash
+   git clone https://github.com/tuusuario/nombre-del-repo.git
+   ```
+2. Instala las dependencias:  
+   ```bash
+   npm install
+   ```
+3. Ejecuta en Android:  
+   ```bash
+   npx react-native run-android
+   ```
+4. Ejecuta en iOS:  
+   ```bash
+   npx react-native run-ios
+   ```
 
-# OR using Yarn
-yarn ios
-```
+---
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## 📸 Capturas (opcional)
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+> Puedes agregar capturas de pantalla de las pantallas de la app si quieres mostrar visualmente las funciones.
 
-## Step 3: Modifying your App
+---
 
-Now that you have successfully run the app, let's modify it.
+## 📌 Nota final
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Este proyecto fue realizado con fines prácticos y de colaboración con una empresa externa. Algunas funcionalidades específicas fueron desarrolladas a pedido del cliente.  
+El proyecto sigue en evolución y puede ser extendido en futuras versiones.
